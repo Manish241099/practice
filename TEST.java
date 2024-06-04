@@ -55,13 +55,13 @@ public class TEST
         // Print odd numbers
         System.out.println("Odd numbers:");
         for (int i = 0; i < oddPos; i++) {
-            System.out.println(odd[i]);
+            System.out.print(odd[i]+" ");
         }
 
         // Print even numbers
-        System.out.println("Even numbers:");
+        System.out.println("\nEven numbers:" );
         for (int i = 0; i < evnPos; i++) {
-            System.out.println(even[i]);
+            System.out.print(even[i]+" ");
         }
     }
 

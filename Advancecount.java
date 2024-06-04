@@ -2,8 +2,6 @@ public class Advancecount {
     public static void main(String[] args) {
         String str="aaaabbbbcccc";
         int count=0;
-
-
         if(str!=null || str.length()==0) {
             System.out.println("str should not be null");
         }

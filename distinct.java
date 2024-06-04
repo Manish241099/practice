@@ -12,7 +12,7 @@ public class distinct {
                 if (array1[i] == array2[j]) {
                     isDistinct = false;
                     break;
-                }
+             }
             }
             if (isDistinct) {
                 System.out.println(array1[i]);
@@ -22,7 +22,7 @@ public class distinct {
         // Find and print elements unique to array2
         for (int i = 0; i < array2.length; i++) {
             boolean isDistinct = true;
-            for (int j = 0; j < array1.length; j++) {
+       for (int j = 0; j < array1.length; j++) {
                 if (array2[i] == array1[j]) {
                     isDistinct = false;
                     break;
